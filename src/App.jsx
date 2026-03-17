@@ -21,11 +21,14 @@ import pythonlogo from "./assets/python-logo.svg"
 import reactlogo from "./assets/react-logo.svg"
 import sasslogo from "./assets/sass-logo.svg"
 import tailwindlogo from "./assets/tailwind-logo.svg"
+import vitejslogo from "./assets/vitejs-logo.svg"
 import vscodelogo from "./assets/vscode-logo.svg"
 import wordpresslogo from "./assets/wordpress-logo.svg"
 
 import associationimage from "./assets/association-image.png"
 import partielimage from "./assets/partiel-image.png"
+import portfoliofictifimage from "./assets/portfoliofictif-image.png"
+import portfolioimage from "./assets/portfolio-image.png"
 
 function App() {
   return (
@@ -95,6 +98,7 @@ function App() {
                 <LogoText logo={vscodelogo} text="Visual Studio Code"/>
                 <LogoText logo={githublogo} text="Github"/>
                 <LogoText logo={gitlogo} text="Git"/>
+                <LogoText logo={vitejslogo} text="Vitejs"/>
                 <LogoText logo={wordpresslogo} text="Wordpress"/>
                 <LogoText logo={figmalogo} text="Figma"/>
               </div>
@@ -106,6 +110,8 @@ function App() {
           <div className='flex flex-row justify-center gap-[50px] flex-wrap'>
             <ProjectDiv title="Site d'association" image={associationimage} texte="Création d'un site WordPress pour une association dans un projet de groupe de 4 personnes." technologies="Wordpress" link="https://aurelien-brochetta.mds-montpellier.yt/"/>
             <ProjectDiv title="Site de partiel" image={partielimage} texte="Création d'un site WordPress pour une campagne éléctorale fictive dans un projet de groupe de 4 personnes." technologies="Wordpress" link="https://aurelien-brochetta.mds-montpellier.yt/partiel/"/>
+            <ProjectDiv title="Site Portfolio fictif" image={portfoliofictifimage} texte="Création d'un site de portoflio fictif en utilisant Sass/SCSS fictif dans un projet de groupe de 3 personnes." technologies="VSCode - HTML - CSS - Sass/SCSS" link="https://github.com/AurelienB14/IntegrationWeb"/>
+            <ProjectDiv title="Site Portfolio (actuel)" image={portfolioimage} texte="Création d'un site portfolio" technologies="VSCode - React - Tailwind - CSS - Vitejs - Figma" link="https://portfolio-aurelien-brochetta.vercel.app"/>
           </div>
         </DivSection>
         <DivSection id="Formations">
