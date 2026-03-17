@@ -106,7 +106,7 @@ function App() {
           </div>
         </DivSection>
         <DivSection id="Projects">
-          <TitleSection text="Projects"/>
+          <TitleSection text="Projets"/>
           <div className='flex flex-row justify-center gap-[50px] flex-wrap'>
             <ProjectDiv title="Site d'association" image={associationimage} texte="Création d'un site WordPress pour une association dans un projet de groupe de 4 personnes." technologies="Wordpress" link="https://aurelien-brochetta.mds-montpellier.yt/"/>
             <ProjectDiv title="Site de partiel" image={partielimage} texte="Création d'un site WordPress pour une campagne éléctorale fictive dans un projet de groupe de 4 personnes." technologies="Wordpress" link="https://aurelien-brochetta.mds-montpellier.yt/partiel/"/>
@@ -130,19 +130,15 @@ function App() {
         <DivSection id="Contact">
           <TitleSection text="Contact"/>
           <div className='flex flex-col md:flex-row gap-[25px]'>
-            <div className='flex w-full md:w-1/2 flex-col justify-center gap-[25px]'>
+            <div className='flex flex-col justify-center gap-[25px] w-full'>
               <SubTitleSection text="Infos"/>
-              <div className='flex flex-col items-center md:items-start gap-[20px] w-full'>
-                <p>Mail : aurelien.brochetta@gmail.com</p>
+              <div className='flex flex-col items-center gap-[20px]'>
+                <p className='flex text-center'>Mail : aurelien.brochetta@gmail.com</p>
                 <p>Ville : Montpellier</p>
                 <p>Âge : 20 ans</p>
-                <a href="https://github.com/AurelienB14" target='_blank'>Github : https://github.com/AurelienB14</a>
-                <a href="https://www.linkedin.com/in/aur%C3%A9lien-brochetta-427409333/" target='_blank'>LinkedIn : Aurélien Brochetta | LinkedIn</a>
+                <a className='flex text-center' href="https://github.com/AurelienB14" target='_blank'>Github : https://github.com/AurelienB14</a>
+                <a className='flex text-center' href="https://www.linkedin.com/in/aur%C3%A9lien-brochetta-427409333/" target='_blank'>LinkedIn : Aurélien Brochetta | LinkedIn</a>
               </div>
-            </div>
-            <div className='flex flex-col w-full md:w-1/2 gap-[25px] items-center'>
-              <SubTitleSection text="Formulaire"/>
-              <p>Bientôt</p>
             </div>
           </div>
         </DivSection>
