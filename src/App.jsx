@@ -111,11 +111,11 @@ function App() {
         <DivSection id="Formations">
           <TitleSection text="Formations"/>
           <div className='flex flex-col sm:flex-row gap-[25px]'>
-            <div className='flex flex-col gap-[20px] justify-center'>
+            <div className='flex flex-col justify-center gap-[20px]'>
               <SubTitleSection text="Lycée Jacques Prévert"/>
               <p className='flex text-center'>2021-2024 : Baccalauréat général - spécialités Mathématiques et NSI - Saint-Christol-Lez-Alès</p>
             </div>
-            <div className='flex flex-col gap-[20px] justify-center'>
+            <div className='flex flex-col justify-center gap-[20px]'>
               <SubTitleSection text="My Digital School"/>
               <p className='flex text-center'>2024-2027 : Bachelor Cycle Web et Multimédia en cours: Développement web, marketing, design et cybersécurité - Montpellier</p>
             </div>
@@ -148,7 +148,7 @@ function App() {
             <div className='flex flex-col items-center gap-[10px]'>
               <a href="#Hero">Hero</a>
               <a href="#About">À propos</a>
-              <a href="#Comptences">Compétences</a>
+              <a href="#Competences">Compétences</a>
               <a href="#Projects">Projets</a>
               <a href="#Formations">Formations</a>
               <a href="#Contact">Contact</a>
