@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Roboto:wght@100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000005;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'montserrat', sans-serif;
+  color: #0081ce;
+  font-weight: bold;
+}
+
+button {
+  font-family: 'roboto', sans-serif;
+  color: white;
+}
+
+p, a {
+  font-family: 'roboto', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
