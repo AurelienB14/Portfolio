@@ -27,6 +27,7 @@ import wordpresslogo from "./assets/wordpress-logo.svg"
 
 import associationimage from "./assets/association-image.png"
 import partielimage from "./assets/partiel-image.png"
+import stagecoolairimage from "./assets/stagecoolair-image.png"
 import portfoliofictifimage from "./assets/portfoliofictif-image.png"
 import greenfallsotimage from "./assets/greenfallsot-image.png"
 import portfolioimage from "./assets/portfolio-image.png"
@@ -35,7 +36,7 @@ function App() {
   return (
     <>
       <div className='flex flex-col mx-auto'>
-        <div className='fixed top-0 w-full flex justify-between flex-col sm:flex-row px-[25px]'>
+        <div className='fixed w-full flex justify-between flex-col sm:flex-row px-5'>
           <div className='flex justify-between items-center flex-row'>
             <img src={logo} alt="logo" className='w-[50px] h-[50px] cursor-pointer' onClick={() => document.getElementById("Hero").scrollIntoView()}/>
             <MenuButton/>
@@ -61,17 +62,22 @@ function App() {
         </DivSection>
         <DivSection id="About">
           <TitleSection text="À propos"/>
-          <div className='flex flex-col sm:flex-row'>
-            <div className='flex sm:w-1/2 p-[25px]'>
+          <div className='flex flex-col md:flex-row gap-[20px] md:gap-0'>
+            <div className='flex md:w-1/2 md:px-[25px]'>
               <img src={photoprofil} className='w-full h-full object-cover' alt="Photo de profil"/>
             </div>
-            <div className='flex sm:w-1/2 p-[25px]'>
-              <p className='flex text-center sm:text-left'>Passionné par l’informatique, j’ai découvert la programmation à l’âge de 14 ans, pendant le confinement. J’ai appris le codage seul. Ce fut une révélation pour moi. L’informatique est un milieu dans lequel je m’épanouis désormais.  J’aimerais travailler dans le domaine du développement.</p>
+            <div className='flex md:w-1/2'>
+              <p className='flex text-center md:text-left'>
+                Passionné par l’informatique, j’ai découvert la programmation à l’âge de 14 ans, pendant le confinement. 
+                J’ai appris le codage seul. Ce fut une révélation pour moi. L’informatique est un milieu dans lequel je m’épanouis désormais. <br /> <br />
+                Au cours de mon cursus, j’ai pu acquérir de bonnes compétences en développement web, gestion de projet, marketing et design graphique. 
+                J'aborde depuis cette année le domaine très enrichissant de la cybersécurité, et je suis tout à fait conscient de l’importance de ce domaine dans la sécurisation des données sensibles recueillies au sein des sociétés publiques et privées. <br /> <br />
+                J’envisage de travailler dans le domaine du développement web. Un stage ou une atlernance me permettrait d'approcher des professionnels reconnus et d'évoluer dans ce milieu informatique qui me passionne.</p>
             </div>
           </div>
         </DivSection>
         <DivSection id="Competences">
-          <TitleSection text="Competences"/>
+          <TitleSection text="Compétences"/>
           <div className='flex flex-col gap-[25px]'>
             <div className='flex flex-col gap-[20px]'>
               <SubTitleSection text="Front-end"/>
@@ -106,12 +112,13 @@ function App() {
         </DivSection>
         <DivSection id="Projects">
           <TitleSection text="Projets"/>
-          <div className='flex flex-row justify-center gap-[50px] flex-wrap'>
-            <ProjectDiv title="Site d'association" image={associationimage} texte="Création d'un site WordPress pour une association dans un projet de groupe de 4 personnes." date="Février 2025" technologies="Wordpress" link="https://aurelien-brochetta.mds-montpellier.yt/"/>
-            <ProjectDiv title="Site de partiel" image={partielimage} texte="Création d'un site WordPress pour une campagne éléctorale fictive dans un projet de groupe de 4 personnes." date="Mars 2025" technologies="Wordpress" link="https://aurelien-brochetta.mds-montpellier.yt/partiel/"/>
-            <ProjectDiv title="Site Portfolio fictif" image={portfoliofictifimage} texte="Création d'un site de portoflio fictif en utilisant Sass/SCSS fictif dans un projet de groupe de 3 personnes." date="Décembre 2025" technologies="VSCode - HTML - CSS - Sass/SCSS" link="https://github.com/AurelienB14/IntegrationWeb"/>
-            <ProjectDiv title="Jeu Vidéo" image={greenfallsotimage} texte="Création d'un jeu vidéo en groupe de 4 personnes" date="Février 2026" technologies="Godot - Python" link="https://aurelienb14.itch.io/greenfall-seeds-of-tomorrow"/>
-            <ProjectDiv title="Site Portfolio (actuel)" image={portfolioimage} texte="Création d'un site portfolio" date="Mars 2026" technologies="VSCode - React - Tailwind - CSS - Vitejs - Figma" link="https://portfolio-aurelien-brochetta.vercel.app"/>
+          <div className='flex flex-row justify-center gap-[40px] md:gap-[50px] flex-wrap'>
+            <ProjectDiv title="Site d'association" image={associationimage} texte="Création d'un site WordPress pour une association dans un projet de groupe de 4 personnes." date="Février 2025" tech="Technologie" technologies="Wordpress" link="https://aurelien-brochetta.mds-montpellier.yt/"/>
+            <ProjectDiv title="Site de partiel" image={partielimage} texte="Création d'un site WordPress pour une campagne électorale fictive dans un projet de groupe de 4 personnes." date="Mars 2025" tech="Technologie" technologies="Wordpress" link="https://aurelien-brochetta.mds-montpellier.yt/partiel/"/>
+            <ProjectDiv title="Site de stage" image={stagecoolairimage} texte="Création d'un site WordPress pour une entreprise de rénovation : Coolair." date="Avril-Mai 2025" tech="Technologie" technologies="Wordpress" link="https://stage.aurelien-brochetta.mds-montpellier.yt/"/>
+            <ProjectDiv title="Site Portfolio fictif" image={portfoliofictifimage} texte="Création d'un site de portfolio fictif en utilisant Sass/SCSS fictif dans un projet de groupe de 3 personnes." date="Décembre 2025" tech="Technologies" technologies="VSCode - HTML - CSS - Sass/SCSS" link="https://github.com/AurelienB14/IntegrationWeb"/>
+            <ProjectDiv title="Jeu Vidéo" image={greenfallsotimage} texte="Création d'un jeu vidéo en groupe de 4 personnes sur le thème de la température." date="Février 2026" technologies="Godot - Python" tech="Technologies" link="https://aurelienb14.itch.io/greenfall-seeds-of-tomorrow"/>
+            <ProjectDiv title="Site Portfolio (actuel)" image={portfolioimage} texte="Création d'un site portfolio." date="Mars 2026" technologies="VSCode - React - Tailwind - CSS - Vitejs - Figma" tech="Technologies" link="https://portfolio-aurelien-brochetta.vercel.app"/>
           </div>
         </DivSection>
         <DivSection id="Formations">
@@ -119,11 +126,11 @@ function App() {
           <div className='flex flex-col sm:flex-row gap-[25px]'>
             <div className='flex flex-col justify-center gap-[20px]'>
               <SubTitleSection text="Lycée Jacques Prévert"/>
-              <p className='flex text-center'>2021-2024 : Baccalauréat général - spécialités Mathématiques et NSI - Saint-Christol-Lez-Alès</p>
+              <p className='flex text-center'>2021-2024 : Baccalauréat général - spécialités Mathématiques et NSI - Saint-Christol-Lez-Alès.</p>
             </div>
             <div className='flex flex-col justify-center gap-[20px]'>
               <SubTitleSection text="My Digital School"/>
-              <p className='flex text-center'>2024-2027 : Bachelor Cycle Web et Multimédia en cours: Développement web, marketing, design et cybersécurité - Montpellier</p>
+              <p className='flex text-center'>2024-2027 : Bachelor Cycle Web et Multimédia en cours: Développement web, marketing, design et cybersécurité - Montpellier.</p>
             </div>
           </div>
         </DivSection>
