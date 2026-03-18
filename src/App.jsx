@@ -108,10 +108,10 @@ function App() {
         <DivSection id="Projects">
           <TitleSection text="Projets"/>
           <div className='flex flex-row justify-center gap-[50px] flex-wrap'>
-            <ProjectDiv title="Site d'association" image={associationimage} texte="Création d'un site WordPress pour une association dans un projet de groupe de 4 personnes." technologies="Wordpress" link="https://aurelien-brochetta.mds-montpellier.yt/"/>
-            <ProjectDiv title="Site de partiel" image={partielimage} texte="Création d'un site WordPress pour une campagne éléctorale fictive dans un projet de groupe de 4 personnes." technologies="Wordpress" link="https://aurelien-brochetta.mds-montpellier.yt/partiel/"/>
-            <ProjectDiv title="Site Portfolio fictif" image={portfoliofictifimage} texte="Création d'un site de portoflio fictif en utilisant Sass/SCSS fictif dans un projet de groupe de 3 personnes." technologies="VSCode - HTML - CSS - Sass/SCSS" link="https://github.com/AurelienB14/IntegrationWeb"/>
-            <ProjectDiv title="Site Portfolio (actuel)" image={portfolioimage} texte="Création d'un site portfolio" technologies="VSCode - React - Tailwind - CSS - Vitejs - Figma" link="https://portfolio-aurelien-brochetta.vercel.app"/>
+            <ProjectDiv title="Site d'association" image={associationimage} texte="Création d'un site WordPress pour une association dans un projet de groupe de 4 personnes." date="Février 2025" technologies="Wordpress" link="https://aurelien-brochetta.mds-montpellier.yt/"/>
+            <ProjectDiv title="Site de partiel" image={partielimage} texte="Création d'un site WordPress pour une campagne éléctorale fictive dans un projet de groupe de 4 personnes." date="Mars 2025" technologies="Wordpress" link="https://aurelien-brochetta.mds-montpellier.yt/partiel/"/>
+            <ProjectDiv title="Site Portfolio fictif" image={portfoliofictifimage} texte="Création d'un site de portoflio fictif en utilisant Sass/SCSS fictif dans un projet de groupe de 3 personnes." date="Décembre 2025" technologies="VSCode - HTML - CSS - Sass/SCSS" link="https://github.com/AurelienB14/IntegrationWeb"/>
+            <ProjectDiv title="Site Portfolio (actuel)" image={portfolioimage} texte="Création d'un site portfolio" date="Mars 2026" technologies="VSCode - React - Tailwind - CSS - Vitejs - Figma" link="https://portfolio-aurelien-brochetta.vercel.app"/>
           </div>
         </DivSection>
         <DivSection id="Formations">
@@ -136,8 +136,8 @@ function App() {
                 <p className='flex text-center'>Mail : aurelien.brochetta@gmail.com</p>
                 <p>Ville : Montpellier</p>
                 <p>Âge : 20 ans</p>
-                <a className='flex text-center' href="https://github.com/AurelienB14" target='_blank'>Github : https://github.com/AurelienB14</a>
-                <a className='flex text-center' href="https://www.linkedin.com/in/aur%C3%A9lien-brochetta-427409333/" target='_blank'>LinkedIn : Aurélien Brochetta | LinkedIn</a>
+                <a className='flex text-center' href="https://github.com/AurelienB14" target='_blank'><u>Github : AurelienB14</u></a>
+                <a className='flex text-center' href="https://www.linkedin.com/in/aur%C3%A9lien-brochetta-427409333/" target='_blank'><u>LinkedIn : Aurélien Brochetta</u></a>
               </div>
             </div>
           </div>
@@ -158,11 +158,11 @@ function App() {
             <div className='flex flex-col justify-center items-center gap-[20px] w-full sm:w-[200px]'>
               <div className='flex flex-row justify-center items-center gap-[20px]'>
                 <img src={githublogo} alt="Github logo" />
-                <a href="https://github.com/AurelienB14" target='_blank' className='flex w-[50px] h-[50px]'>Github</a>
+                <a href="https://github.com/AurelienB14" target='_blank' className='flex w-[50px] h-[50px]'><u>Github</u></a>
               </div>
               <div className='flex flex-row justify-center items-center gap-[20px]'> 
                 <img src={linkedinlogo} alt="LinkedIn logo" />
-                <a href="https://www.linkedin.com/in/aur%C3%A9lien-brochetta-427409333/" className='flex w-[50px] h-[50px]' target='_blank'>Linkedin</a>
+                <a href="https://www.linkedin.com/in/aur%C3%A9lien-brochetta-427409333/" className='flex w-[50px] h-[50px]' target='_blank'><u>Linkedin</u></a>
               </div>
             </div>
           </div>

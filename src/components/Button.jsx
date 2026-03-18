@@ -9,7 +9,7 @@ export default function Button(children) {
   }
     return <button
         className="
-        h-[40px] sm:h-[35px] w-full sm:w-auto px-1
+        h-[35px] hover:h-[45px] px-1 hover:px-6
         bg-[#0081ce] hover:bg-[#3eb489] transition duration-300 rounded-full
         text-[12px] font-bold cursor-pointer whitespace-nowrap"
         onClick={handleClick}>
