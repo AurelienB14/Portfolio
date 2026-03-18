@@ -34,9 +34,9 @@ import portfolioimage from "./assets/portfolio-image.png"
 function App() {
   return (
     <>
-      <div className='flex flex-col mx-auto w-19/20'>
+      <div className='flex flex-col mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='fixed top-0 w-19/20 flex justify-between flex-col sm:flex-row'>
-          <div className='flex w-19/20 justify-between items-center flex-row'>
+          <div className='flex justify-between items-center flex-row'>
             <img src={logo} alt="logo" className='w-[50px] h-[50px] cursor-pointer' onClick={() => document.getElementById("Hero").scrollIntoView()}/>
             <MenuButton/>
           </div>
@@ -45,8 +45,6 @@ function App() {
               <Button text="À propos" scroll="About"/>
               <Button text="Compétences" scroll="Competences"/>
               <Button text="Projets" scroll="Projects"/>
-            </div>
-            <div className='hidden sm:flex flex-col items-center sm:flex-row gap-1 sm:gap-5 w-[150px] sm:w-auto'>
               <Button text="Formations" scroll="Formations"/>
               <Button text="Contact" scroll="Contact"/>
             </div>
