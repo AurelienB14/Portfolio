@@ -34,8 +34,8 @@ import portfolioimage from "./assets/portfolio-image.png"
 function App() {
   return (
     <>
-      <div className='flex flex-col mx-auto px-4 sm:px-6 lg:px-8'>
-        <div className='fixed top-0 w-19/20 flex justify-between flex-col sm:flex-row'>
+      <div className='flex flex-col mx-auto'>
+        <div className='fixed top-0 w-full flex justify-between flex-col sm:flex-row px-[25px]'>
           <div className='flex justify-between items-center flex-row'>
             <img src={logo} alt="logo" className='w-[50px] h-[50px] cursor-pointer' onClick={() => document.getElementById("Hero").scrollIntoView()}/>
             <MenuButton/>
@@ -143,7 +143,7 @@ function App() {
           </div>
         </DivSection>
         <div className='flex flex-col pt-[200px] p-[75px] gap-[50px]'>
-          <div className='flex flex-col sm:flex-row sm:justify-between gap-[50px] sm:gap-0'>
+          <div className='flex w-full flex-col sm:flex-row sm:justify-between gap-[50px] sm:gap-0'>
             <div className='flex w-full sm:w-[200px] justify-center items-center'>
               <img src={logo} alt="logo"/>
             </div>
@@ -155,7 +155,7 @@ function App() {
               <a href="#Formations">Formations</a>
               <a href="#Contact">Contact</a>
             </div>
-            <div className='flex flex-col justify-center items-center gap-[20px] w-full sm:w-[200px]'>
+            <div className='flex flex-col justify-center items-center gap-[20px] sm:w-[200px]'>
               <div className='flex flex-row justify-center items-center gap-[20px]'>
                 <img src={githublogo} alt="Github logo" />
                 <a href="https://github.com/AurelienB14" target='_blank' className='flex w-[50px] h-[50px]'><u>Github</u></a>
