@@ -1,3 +1,3 @@
 export default function DivSection({children, id}) {
-    return <div id={id} className="flex flex-col pt-50 gap-[50px] px-10">{children}</div>
+    return <div id={id} className="flex flex-col mt-50 gap-[50px] px-10">{children}</div>
 }

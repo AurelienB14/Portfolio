@@ -72,7 +72,8 @@ function App() {
                 J’ai appris le codage seul. Ce fut une révélation pour moi. L’informatique est un milieu dans lequel je m’épanouis désormais. <br /> <br />
                 Au cours de mon cursus, j’ai pu acquérir de bonnes compétences en développement web, gestion de projet, marketing et design graphique. 
                 J'aborde depuis cette année le domaine très enrichissant de la cybersécurité, et je suis tout à fait conscient de l’importance de ce domaine dans la sécurisation des données sensibles recueillies au sein des sociétés publiques et privées. <br /> <br />
-                J’envisage de travailler dans le domaine du développement web. Un stage ou une atlernance me permettrait d'approcher des professionnels reconnus et d'évoluer dans ce milieu informatique qui me passionne.</p>
+                J’envisage de travailler dans le domaine du développement web. 
+                Un stage ou une atlernance me permettrait d'approcher des professionnels reconnus et d'évoluer dans ce milieu informatique qui me passionne.</p>
             </div>
           </div>
         </DivSection>
