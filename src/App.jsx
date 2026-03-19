@@ -123,12 +123,12 @@ function App() {
         </DivSection>
         <DivSection id="Formations">
           <TitleSection text="Formations"/>
-          <div className='flex flex-col sm:flex-row gap-[25px]'>
-            <div className='flex flex-col items-center gap-[20px] w-1/2'>
+          <div className='flex flex-col items-center sm:flex-row gap-[25px]'>
+            <div className='flex flex-col items-center gap-[20px] sm:w-1/2'>
               <SubTitleSection text="Lycée Jacques Prévert"/>
               <p className='flex text-center'>2021-2024 : Baccalauréat général - spécialités Mathématiques et NSI - Saint-Christol-Lez-Alès.</p>
             </div>
-            <div className='flex flex-col items-center gap-[20px] w-1/2'>
+            <div className='flex flex-col items-center gap-[20px] sm:w-1/2'>
               <SubTitleSection text="My Digital School"/>
               <p className='flex text-center'>2024-2027 : Bachelor Cycle Web et Multimédia en cours: Développement web, marketing, design et cybersécurité - Montpellier.</p>
             </div>
@@ -152,7 +152,7 @@ function App() {
         <div className='flex flex-col pt-[200px] p-[75px] gap-[50px]'>
           <div className='flex w-full flex-col sm:flex-row sm:justify-between gap-[50px] sm:gap-0'>
             <div className='flex w-full sm:w-[200px] justify-center items-center'>
-              <img src={logo} alt="logo"/>
+              <img src={logo} alt="logo" className='w-[200px] h-[200px]'/>
             </div>
             <div className='flex flex-col items-center gap-[10px]'>
               <a href="#Hero">Hero</a>
