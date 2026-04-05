@@ -32,6 +32,8 @@ import portfoliofictifimage from "./assets/portfoliofictif-image.png"
 import greenfallsotimage from "./assets/greenfallsot-image.png"
 import portfolioimage from "./assets/portfolio-image.png"
 
+import cubeshooterimage from "./assets/cubeshooter-image.png"
+
 function App() {
   return (
     <>
@@ -120,6 +122,11 @@ function App() {
             <ProjectDiv title="Site de stage" image={stagecoolairimage} texte="Création d'un site WordPress pour une entreprise de rénovation : Coolair." date="Avril-Mai 2025" tech="Technologie" technologies="Wordpress" link="https://stage.aurelien-brochetta.mds-montpellier.yt/"/>
             <ProjectDiv title="Site de partiel" image={partielimage} texte="Création d'un site WordPress pour une campagne électorale fictive dans un projet de groupe de 4 personnes." date="Mars 2025" tech="Technologie" technologies="Wordpress" link="https://aurelien-brochetta.mds-montpellier.yt/partiel/"/>
             <ProjectDiv title="Site d'association" image={associationimage} texte="Création d'un site WordPress pour une association dans un projet de groupe de 4 personnes." date="Février 2025" tech="Technologie" technologies="Wordpress" link="https://aurelien-brochetta.mds-montpellier.yt/"/>
+          </div>
+          <br />
+          <TitleSection text="Projets personnels"/>
+          <div className='flex flex-row justify-center gap-[40px] md:gap-[50px] flex-wrap'>
+            <ProjectDiv title="Cube Shooter" image={cubeshooterimage} texte="Jeux vidéos où l'on contrôle un cube vert et l'on doit tirer sur des cubes ennemis" date="2025-2026" tech="Technologies" technologies="Godot - Python" link="/cube-runner/index.html"/>
           </div>
         </DivSection>
         <DivSection id="Formations">
