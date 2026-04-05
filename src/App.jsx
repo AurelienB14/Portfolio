@@ -116,17 +116,17 @@ function App() {
         <DivSection id="Projects">
           <TitleSection text="Projets réalisés"/>
           <div className='flex flex-row justify-center gap-[40px] md:gap-[50px] flex-wrap'>
-            <ProjectDiv title="Site Portfolio (actuel)" image={portfolioimage} texte="Création d'un site portfolio." date="Mars 2026" technologies="VSCode - React - Tailwind - CSS - Vitejs - Figma" tech="Technologies" link="https://portfolio-aurelien-brochetta.vercel.app"/>
-            <ProjectDiv title="Jeu Vidéo" image={greenfallsotimage} texte="Création d'un jeu vidéo en groupe de 4 personnes sur le thème de la température." date="Février 2026" technologies="Godot - Python" tech="Technologies" link="https://aurelienb14.itch.io/greenfall-seeds-of-tomorrow"/>
-            <ProjectDiv title="Site Portfolio fictif" image={portfoliofictifimage} texte="Création d'un site de portfolio fictif en utilisant Sass/SCSS fictif dans un projet de groupe de 3 personnes." date="Décembre 2025" tech="Technologies" technologies="VSCode - HTML - CSS - Sass/SCSS" link="https://github.com/AurelienB14/IntegrationWeb"/>
-            <ProjectDiv title="Site de stage" image={stagecoolairimage} texte="Création d'un site WordPress pour une entreprise de rénovation : Coolair." date="Avril-Mai 2025" tech="Technologie" technologies="Wordpress" link="https://stage.aurelien-brochetta.mds-montpellier.yt/"/>
-            <ProjectDiv title="Site de partiel" image={partielimage} texte="Création d'un site WordPress pour une campagne électorale fictive dans un projet de groupe de 4 personnes." date="Mars 2025" tech="Technologie" technologies="Wordpress" link="https://aurelien-brochetta.mds-montpellier.yt/partiel/"/>
-            <ProjectDiv title="Site d'association" image={associationimage} texte="Création d'un site WordPress pour une association dans un projet de groupe de 4 personnes." date="Février 2025" tech="Technologie" technologies="Wordpress" link="https://aurelien-brochetta.mds-montpellier.yt/"/>
+            <ProjectDiv title="Site Portfolio (actuel)" image={portfolioimage} texte="Création d'un site portfolio." date="Mars 2026" technologies="VSCode - React - Tailwind - CSS - Vitejs - Figma" tech="Technologies" link="https://portfolio-aurelien-brochetta.vercel.app" buttontext="Lien site internet"/>
+            <ProjectDiv title="Jeu Vidéo" image={greenfallsotimage} texte="Création d'un jeu vidéo en groupe de 4 personnes sur le thème de la température." date="Février 2026" technologies="Godot - Python" tech="Technologies" link="https://aurelienb14.itch.io/greenfall-seeds-of-tomorrow" buttontext="Lien Itch.io (pc)"/>
+            <ProjectDiv title="Site Portfolio fictif" image={portfoliofictifimage} texte="Création d'un site de portfolio fictif en utilisant Sass/SCSS fictif dans un projet de groupe de 3 personnes." date="Décembre 2025" tech="Technologies" technologies="VSCode - HTML - CSS - Sass/SCSS" link="https://github.com/AurelienB14/IntegrationWeb" buttontext="Lien Github"/>
+            <ProjectDiv title="Site de stage" image={stagecoolairimage} texte="Création d'un site WordPress pour une entreprise de rénovation : Coolair." date="Avril-Mai 2025" tech="Technologie" technologies="Wordpress" link="https://stage.aurelien-brochetta.mds-montpellier.yt/" buttontext="Lien site internet"/>
+            <ProjectDiv title="Site de partiel" image={partielimage} texte="Création d'un site WordPress pour une campagne électorale fictive dans un projet de groupe de 4 personnes." date="Mars 2025" tech="Technologie" technologies="Wordpress" link="https://aurelien-brochetta.mds-montpellier.yt/partiel/" buttontext="Lien site internet"/>
+            <ProjectDiv title="Site d'association" image={associationimage} texte="Création d'un site WordPress pour une association dans un projet de groupe de 4 personnes." date="Février 2025" tech="Technologie" technologies="Wordpress" link="https://aurelien-brochetta.mds-montpellier.yt/" buttontext="Lien site internet"/>
           </div>
           <br />
           <TitleSection text="Projets personnels"/>
           <div className='flex flex-row justify-center gap-[40px] md:gap-[50px] flex-wrap'>
-            <ProjectDiv title="Cube Shooter" image={cubeshooterimage} texte="Jeux vidéos où l'on contrôle un cube vert et l'on doit tirer sur des cubes ennemis" date="2025-2026" tech="Technologies" technologies="Godot - Python" link="/cube-runner/index.html"/>
+            <ProjectDiv title="Cube Shooter" image={cubeshooterimage} texte="Jeux vidéos où l'on contrôle un cube vert et l'on doit tirer sur des cubes ennemis" date="2025-2026" tech="Technologies" technologies="Godot - Python" link="/cube-runner/index.html" buttontext="Jouer au jeu (pc uniquement)"/>
           </div>
         </DivSection>
         <DivSection id="Formations">
