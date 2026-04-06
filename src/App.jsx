@@ -75,7 +75,7 @@ function App() {
                 Au cours de mon cursus, j’ai pu acquérir de bonnes compétences en développement web, gestion de projet, marketing et design graphique. 
                 J'aborde depuis cette année le domaine très enrichissant de la cybersécurité, et je suis tout à fait conscient de l’importance de ce domaine dans la sécurisation des données sensibles recueillies au sein des sociétés publiques et privées. <br /> <br />
                 J’envisage de travailler dans le domaine du développement web. 
-                Un stage ou une atlernance me permettrait d'approcher des professionnels reconnus et d'évoluer dans ce milieu informatique qui me passionne.</p>
+                Un stage ou une alternance me permettrait d'approcher des professionnels reconnus et d'évoluer dans ce milieu informatique qui me passionne.</p>
             </div>
           </div>
         </DivSection>
