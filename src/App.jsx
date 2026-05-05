@@ -18,6 +18,7 @@ import jslogo from "./assets/js-logo.svg"
 import linkedinlogo from "./assets/linkedin-logo.svg"
 import phplogo from "./assets/php-logo.svg"
 import pythonlogo from "./assets/python-logo.svg"
+import symfonylogo from "./assets/symfony-logo.svg"
 import reactlogo from "./assets/react-logo.svg"
 import sasslogo from "./assets/sass-logo.svg"
 import tailwindlogo from "./assets/tailwind-logo.svg"
@@ -98,6 +99,7 @@ function App() {
               <div className='flex flex-row justify-center gap-[25px] flex-wrap'>
                 <LogoText logo={pythonlogo} text="Python"/>
                 <LogoText logo={phplogo} text="PHP"/>
+                <LogoText logo={symfonylogo} text="Symfony"/>
               </div>
             </div>
             <div className='flex flex-col gap-[20px]'>
