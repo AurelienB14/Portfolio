@@ -32,6 +32,7 @@ import stagecoolairimage from "./assets/stagecoolair-image.png"
 import portfoliofictifimage from "./assets/portfoliofictif-image.png"
 import greenfallsotimage from "./assets/greenfallsot-image.png"
 import portfolioimage from "./assets/portfolio-image.png"
+import studiogamingimage from "./assets/studiogaming-image.png"
 
 import cubeshooterimage from "./assets/cubeshooter-image.png"
 
@@ -117,7 +118,8 @@ function App() {
         </DivSection>
         <DivSection id="Projects">
           <TitleSection text="Projets réalisés"/>
-          <div className='flex flex-row justify-center gap-[40px] md:gap-[50px] flex-wrap'>
+          <div className='flex flex-row justify-center gap-[40px] md:gap-[50px] flex-wrap items-stretch'>
+            <ProjectDiv title="Studio Gaming" image={studiogamingimage} texte="Développement d'un site de jeux vidéos avec des CRUD en groupes de 3 personnes." date="Avril-juin 2026" technologies="VSCode - Symfony - React" tech="Technologies" link="https://github.com/AurelienB14/Projet-de-specialite" buttontext="Lien github"/>
             <ProjectDiv title="Site Portfolio (actuel)" image={portfolioimage} texte="Création d'un site portfolio." date="Mars 2026" technologies="VSCode - React - Tailwind - CSS - Vitejs - Figma" tech="Technologies" link="https://portfolio-aurelien-brochetta.vercel.app" buttontext="Lien site internet"/>
             <ProjectDiv title="Jeu Vidéo" image={greenfallsotimage} texte="Création d'un jeu vidéo en groupe de 4 personnes sur le thème de la température." date="Février 2026" technologies="Godot - Python" tech="Technologies" link="https://aurelienb14.itch.io/greenfall-seeds-of-tomorrow" buttontext="Lien Itch.io (pc)"/>
             <ProjectDiv title="Site Portfolio fictif" image={portfoliofictifimage} texte="Création d'un site de portfolio fictif en utilisant Sass/SCSS fictif dans un projet de groupe de 3 personnes." date="Décembre 2025" tech="Technologies" technologies="VSCode - HTML - CSS - Sass/SCSS" link="https://github.com/AurelienB14/IntegrationWeb" buttontext="Lien Github"/>
@@ -135,12 +137,12 @@ function App() {
           <TitleSection text="Formations"/>
           <div className='flex flex-col items-center sm:flex-row gap-[25px]'>
             <div className='flex flex-col items-center gap-[20px] sm:w-1/2'>
-              <SubTitleSection text="Lycée Jacques Prévert"/>
-              <p className='flex text-center'>2021-2024 : Baccalauréat général - spécialités Mathématiques et NSI - Saint-Christol-Lez-Alès.</p>
-            </div>
-            <div className='flex flex-col items-center gap-[20px] sm:w-1/2'>
               <SubTitleSection text="My Digital School"/>
               <p className='flex text-center'>2024-2027 : Bachelor Cycle Web et Multimédia en cours : Développement web, marketing, design et cybersécurité - Montpellier.</p>
+            </div>
+            <div className='flex flex-col items-center gap-[20px] sm:w-1/2'>
+              <SubTitleSection text="Lycée Jacques Prévert"/>
+              <p className='flex text-center'>2021-2024 : Baccalauréat général - spécialités Mathématiques et NSI - Saint-Christol-Lez-Alès.</p>
             </div>
           </div>
         </DivSection>
@@ -153,6 +155,7 @@ function App() {
                 <p className='flex text-center'>Mail : aurelien.brochetta@gmail.com</p>
                 <p>Ville : Montpellier</p>
                 <p>Âge : 20 ans</p>
+                <p>Permis B : en cours</p>
                 <a className='flex text-center' href="https://github.com/AurelienB14" target='_blank'><u>Github : AurelienB14</u></a>
                 <a className='flex text-center' href="https://www.linkedin.com/in/aur%C3%A9lien-brochetta-427409333/" target='_blank'><u>LinkedIn : Aurélien Brochetta</u></a>
               </div>
