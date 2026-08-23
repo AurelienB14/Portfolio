@@ -33,6 +33,9 @@ import portfoliofictifimage from "./assets/portfoliofictif-image.png"
 import greenfallsotimage from "./assets/greenfallsot-image.png"
 import portfolioimage from "./assets/portfolio-image.png"
 import studiogamingimage from "./assets/studiogaming-image.png"
+import resurgences34image from "./assets/resurgences34-image.png"
+import pepsimage from "./assets/peps-image.png"
+import tabledecocoimage from "./assets/tabledecoco-image.png"
 
 import cubeshooterimage from "./assets/cubeshooter-image.png"
 
@@ -59,7 +62,7 @@ function App() {
         <div className='flex items-center flex-col align-center gap-[25px]'>
           <div className='flex items-center flex-col align-center gap-[10px]'>
             <h1 className="text-[50px] text-center">Aurélien BROCHETTA</h1>
-            <h2 className="text-[45px] text-center">Étudiant Développeur Web</h2>
+            <h2 className="text-[45px] text-center">Étudiant développeur web</h2>
           </div>
             <Button text="Compétences" scroll="Competences"/>
         </div>
@@ -73,11 +76,11 @@ function App() {
             <div className='flex md:w-1/2'>
               <p className='flex text-center md:text-left'>
                 Passionné par l’informatique, j’ai découvert la programmation à l’âge de 14 ans, pendant le confinement. 
-                J’ai appris le codage seul. Ce fut une révélation pour moi. L’informatique est un milieu dans lequel je m’épanouis désormais. <br /> <br />
+                J'ai appris à coder seul. Ce fut une révélation pour moi. L’informatique est un milieu dans lequel je m’épanouis désormais. <br /> <br />
                 Au cours de mon cursus, j’ai pu acquérir de bonnes compétences en développement web, gestion de projet, marketing et design graphique. 
-                J'aborde depuis cette année le domaine très enrichissant de la cybersécurité, et je suis tout à fait conscient de l’importance de ce domaine dans la sécurisation des données sensibles recueillies au sein des sociétés publiques et privées. <br /> <br />
+                Je découvre depuis cette année le domaine très enrichissant de la cybersécurité, et je suis tout à fait conscient de l’importance de ce domaine dans la sécurisation des données sensibles recueillies au sein des sociétés publiques et privées. <br /> <br />
                 J’envisage de travailler dans le domaine du développement web. 
-                Un stage ou une alternance me permettrait d'approcher des professionnels reconnus et d'évoluer dans ce milieu informatique qui me passionne.</p>
+                Un stage ou une alternance me permettrait de découvrir davantage le monde professionnel et de développer mes compétences au contact de professionnels expérimentés.</p>
             </div>
           </div>
         </DivSection>
@@ -107,7 +110,7 @@ function App() {
               <SubTitleSection text="Outils"/>
               <div className='flex flex-row justify-center gap-[25px] flex-wrap'>
                 <LogoText logo={vscodelogo} text="Visual Studio Code"/>
-                <LogoText logo={githublogo} text="Github"/>
+                <LogoText logo={githublogo} text="GitHub"/>
                 <LogoText logo={gitlogo} text="Git"/>
                 <LogoText logo={vitejslogo} text="Vitejs"/>
                 <LogoText logo={wordpresslogo} text="Wordpress"/>
@@ -119,18 +122,21 @@ function App() {
         <DivSection id="Projects">
           <TitleSection text="Projets réalisés"/>
           <div className='flex flex-row justify-center gap-[40px] md:gap-[50px] flex-wrap items-stretch'>
-            <ProjectDiv title="Studio Gaming" image={studiogamingimage} texte="Développement d'un site de jeux vidéos avec des CRUD en groupes de 3 personnes." date="Avril-juin 2026" technologies="VSCode - Symfony - React" tech="Technologies" link="https://github.com/AurelienB14/Projet-de-specialite" buttontext="Lien github"/>
-            <ProjectDiv title="Site Portfolio (actuel)" image={portfolioimage} texte="Création d'un site portfolio." date="Mars 2026" technologies="VSCode - React - Tailwind - CSS - Vitejs - Figma" tech="Technologies" link="https://portfolio-aurelien-brochetta.vercel.app" buttontext="Lien site internet"/>
-            <ProjectDiv title="Jeu Vidéo" image={greenfallsotimage} texte="Création d'un jeu vidéo en groupe de 4 personnes sur le thème de la température." date="Février 2026" technologies="Godot - Python" tech="Technologies" link="https://aurelienb14.itch.io/greenfall-seeds-of-tomorrow" buttontext="Lien Itch.io (pc)"/>
-            <ProjectDiv title="Site Portfolio fictif" image={portfoliofictifimage} texte="Création d'un site de portfolio fictif en utilisant Sass/SCSS fictif dans un projet de groupe de 3 personnes." date="Décembre 2025" tech="Technologies" technologies="VSCode - HTML - CSS - Sass/SCSS" link="https://github.com/AurelienB14/IntegrationWeb" buttontext="Lien Github"/>
-            <ProjectDiv title="Site de stage" image={stagecoolairimage} texte="Création d'un site WordPress pour une entreprise de rénovation : Coolair." date="Avril-Mai 2025" tech="Technologie" technologies="Wordpress" link="https://stage.aurelien-brochetta.mds-montpellier.yt/" buttontext="Lien site internet"/>
-            <ProjectDiv title="Site de partiel" image={partielimage} texte="Création d'un site WordPress pour une campagne électorale fictive dans un projet de groupe de 4 personnes." date="Mars 2025" tech="Technologie" technologies="Wordpress" link="https://aurelien-brochetta.mds-montpellier.yt/partiel/" buttontext="Lien site internet"/>
-            <ProjectDiv title="Site d'association" image={associationimage} texte="Création d'un site WordPress pour une association dans un projet de groupe de 4 personnes." date="Février 2025" tech="Technologie" technologies="Wordpress" link="https://aurelien-brochetta.mds-montpellier.yt/" buttontext="Lien site internet"/>
+            <ProjectDiv title="Stage Table de Coco" image={tabledecocoimage} texte="Développement d'un site internet pour un restaurant de burger." date="juillet 2026" technologies="VSCode - HTML - CSS - JS" tech="Technologies" link="https://stage-tablecoco-aurelien-brochetta.vercel.app/index.html" buttontext="Lien site internet"/>
+            <ProjectDiv title="Stage Association PEPS" image={pepsimage} texte="Amélioration du site internet d'une association au service de l'humain." date="juin-juillet 2026" technologies="Artisteer 4 - VSCode - HTML - CSS" tech="Technologies" link="https://association-peps30.fr/" buttontext="Lien site internet"/>
+            <ProjectDiv title="Stage Résurgences 34" image={resurgences34image} texte="Modifications d'éléments du site internet et formation du personnel à l'installation et l'utilisation du logiciel Keepass." date="mai-juin 2026" technologies="Google Site - Keepass" tech="Technologies" link="https://sites.google.com/view/resurgences34/" buttontext="Lien site internet"/>
+            <ProjectDiv title="Studio Gaming" image={studiogamingimage} texte="Développement d'un site de jeux vidéo avec des CRUD en groupes de 3 personnes." date="avril-juin 2026" technologies="VSCode - Symfony - React" tech="Technologies" link="https://github.com/AurelienB14/Projet-de-specialite" buttontext="Lien GitHub"/>
+            <ProjectDiv title="Site Portfolio (actuel)" image={portfolioimage} texte="Création d'un site portfolio." date="mars 2026" technologies="VSCode - React - Tailwind - CSS - Vite - Figma" tech="Technologies" link="https://portfolio-aurelien-brochetta.vercel.app" buttontext="Lien site internet"/>
+            <ProjectDiv title="Jeu Vidéo" image={greenfallsotimage} texte="Création d'un jeu vidéo en groupe de 4 personnes sur le thème de la température." date="février 2026" technologies="Godot - Python" tech="Technologies" link="https://aurelienb14.itch.io/greenfall-seeds-of-tomorrow" buttontext="Lien Itch.io (pc)"/>
+            <ProjectDiv title="Site Portfolio fictif" image={portfoliofictifimage} texte="Création d'un site de portfolio fictif en utilisant Sass/SCSS fictif dans un projet de groupe de 3 personnes." date="décembre 2025" tech="Technologies" technologies="VSCode - HTML - CSS - Sass/SCSS" link="https://github.com/AurelienB14/IntegrationWeb" buttontext="Lien GitHub"/>
+            <ProjectDiv title="Site de stage" image={stagecoolairimage} texte="Création d'un site WordPress pour une entreprise de rénovation : Coolair." date="avril-mai 2025" tech="Technologie" technologies="WordPress" link="https://stage.aurelien-brochetta.mds-montpellier.yt/" buttontext="Lien site internet"/>
+            <ProjectDiv title="Site de partiel" image={partielimage} texte="Création d'un site WordPress pour une campagne électorale fictive dans un projet de groupe de 4 personnes." date="mars 2025" tech="Technologie" technologies="WordPress" link="https://aurelien-brochetta.mds-montpellier.yt/partiel/" buttontext="Lien site internet"/>
+            <ProjectDiv title="Site d'association" image={associationimage} texte="Création d'un site WordPress pour une association dans un projet de groupe de 4 personnes." date="février 2025" tech="Technologie" technologies="WordPress" link="https://aurelien-brochetta.mds-montpellier.yt/" buttontext="Lien site internet"/>
           </div>
           <br />
           <TitleSection text="Projets personnels"/>
           <div className='flex flex-row justify-center gap-[40px] md:gap-[50px] flex-wrap'>
-            <ProjectDiv title="Cube Shooter" image={cubeshooterimage} texte="Jeux vidéos où l'on contrôle un cube vert et l'on doit tirer sur des cubes ennemis" date="2025-2026" tech="Technologies" technologies="Godot - Python" link="/cube-runner/index.html" buttontext="Jouer au jeu (pc uniquement)"/>
+            <ProjectDiv title="Cube Shooter" image={cubeshooterimage} texte="Jeu vidéo dans lequel on contrôle un cube vert et doit tirer sur des cubes ennemis" date="2025-2026" tech="Technologies" technologies="Godot - Python" link="/cube-runner/index.html" buttontext="Jouer au jeu (pc uniquement)"/>
           </div>
         </DivSection>
         <DivSection id="Formations">
@@ -142,7 +148,7 @@ function App() {
             </div>
             <div className='flex flex-col items-center gap-[20px] sm:w-1/2'>
               <SubTitleSection text="Lycée Jacques Prévert"/>
-              <p className='flex text-center'>2021-2024 : Baccalauréat général - spécialités Mathématiques et NSI - Saint-Christol-Lez-Alès.</p>
+              <p className='flex text-center'>2021-2024 : Baccalauréat général – spécialités mathématiques et NSI - Saint-Christol-lès-Alès.</p>
             </div>
           </div>
         </DivSection>
@@ -152,11 +158,11 @@ function App() {
             <div className='flex flex-col justify-center gap-[25px] w-full'>
               <SubTitleSection text="Infos"/>
               <div className='flex flex-col items-center gap-[20px]'>
-                <p className='flex text-center'>Mail : aurelien.brochetta@gmail.com</p>
+                <p className='flex text-center'>E-mail : aurelien.brochetta@gmail.com</p>
                 <p>Ville : Montpellier</p>
                 <p>Âge : 20 ans</p>
                 <p>Permis B : en cours</p>
-                <a className='flex text-center' href="https://github.com/AurelienB14" target='_blank'><u>Github : AurelienB14</u></a>
+                <a className='flex text-center' href="https://github.com/AurelienB14" target='_blank'><u>GitHub : AurelienB14</u></a>
                 <a className='flex text-center' href="https://www.linkedin.com/in/aur%C3%A9lien-brochetta-427409333/" target='_blank'><u>LinkedIn : Aurélien Brochetta</u></a>
               </div>
             </div>
@@ -177,7 +183,7 @@ function App() {
             </div>
             <div className='flex flex-col justify-center items-center gap-[20px] sm:w-[200px]'>
               <div className='flex flex-row justify-center items-center gap-[20px]'>
-                <img src={githublogo} alt="Github logo" />
+                <img src={githublogo} alt="GitHub logo" />
                 <a href="https://github.com/AurelienB14" target='_blank' className='flex w-[50px] h-[50px]'><u>Github</u></a>
               </div>
               <div className='flex flex-row justify-center items-center gap-[20px]'> 
