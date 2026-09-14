@@ -55,24 +55,24 @@ function App() {
   const [menu, setMenu] = useState(false)
 
   const projects = [
-    {title: "Linea", image: lineaimage, texte: "Jeu vidéo dans lequel on contrôle et doit tirer sur des cubes ennemis sur Play Store (mobile, Android)", date: "juin-septembre 2026", technologies: "Godot - Python", type: "personnel", link: "https://play.google.com/store/apps/details?id=com.soochie14.linea", buttontext: "Lien Play Store"},
-    {title: "Stage Table de Coco", image: tabledecocoimage, texte: "Développement d'un site internet pour un restaurant de burger.", date: "juillet 2026", technologies: "VSCode - HTML - CSS - JS", type: "stage", link: "https://stage-tablecoco-aurelien-brochetta.vercel.app/index.html", buttontext: "Lien site internet"},
-    {title: "Stage Association PEPS", image: pepsimage, texte: "Amélioration du site internet d'une association au service de l'humain.", date: "juin-juillet 2026", technologies: "Artisteer 4 - VSCode - HTML - CSS", type: "stage", link: "https://association-peps30.fr/", buttontext: "Lien site internet"},
-    {title: "Stage Résurgences 34", image: resurgences34image, texte: "Modifications d'éléments du site internet et formation du personnel à l'installation et l'utilisation du logiciel Keepass.", date: "mai-juin 2026", technologies: "Google Site - Keepass", type: "stage", link: "https://sites.google.com/view/resurgences34/", buttontext: "Lien site internet"},
-    {title: "Studio Gaming", image: studiogamingimage, texte: "Développement d'un site de jeux vidéo avec des CRUD en groupes de 3 personnes.", date: "avril-juin 2026", technologies: "VSCode - Symfony - React", type: "ecole", link: "https://github.com/AurelienB14/Projet-de-specialite", buttontext: "Lien GitHub"},
-    {title: "Site Portfolio (actuel)", image: portfolioimage, texte: "Création d'un site portfolio.", date: "mars 2026", technologies: "VSCode - React - Tailwind - CSS - Vite - Figma", type: "personnel", link: "https://portfolio-aurelien-brochetta.vercel.app", buttontext: "Lien site internet"},
-    {title: "Jeu Vidéo", image: greenfallsotimage, texte: "Création d'un jeu vidéo en groupe de 4 personnes sur le thème de la température.", date: "février 2026", technologies: "Godot - Python", type: "ecole", link: "https://aurelienb14.itch.io/greenfall-seeds-of-tomorrow", buttontext: "Lien Itch.io (pc)"},
-    {title: "Site Portfolio fictif", image: portfoliofictifimage, texte: "Création d'un site de portfolio fictif en utilisant Sass/SCSS dans un projet de groupe de 3 personnes.", date: "décembre 2025", technologies: "VSCode - HTML - CSS - Sass/SCSS", type: "ecole", link: "https://github.com/AurelienB14/IntegrationWeb", buttontext: "Lien GitHub"},
-    {title: "Site de stage", image: stagecoolairimage, texte: "Création d'un site WordPress pour une entreprise de rénovation : Coolair.", date: "avril-mai 2025", technologies: "WordPress", type: "stage", link: "https://stage.aurelien-brochetta.mds-montpellier.yt/", buttontext: "Lien site internet"},
-    {title: "Site de partiel", image: partielimage, texte: "Création d'un site WordPress pour une campagne électorale fictive dans un projet de groupe de 4 personnes.", date: "mars 2025", technologies: "WordPress", type: "ecole", link: "https://aurelien-brochetta.mds-montpellier.yt/partiel/", buttontext: "Lien site internet"},
-    {title: "Site d'association", image: associationimage, texte: "Création d'un site WordPress pour une association dans un projet de groupe de 4 personnes.", date: "février 2025", technologies: "WordPress", type: "ecole", link: "https://aurelien-brochetta.mds-montpellier.yt/", buttontext: "Lien site internet"},
+    {title: "Linea", image: lineaimage, texte: "Jeu mobile développé et publié sur le Play Store. Le joueur contrôle un cube et doit éliminer des ennemis.", date: "juin-septembre 2026", technologies: "Godot - Python", type: "personnel", link: "https://play.google.com/store/apps/details?id=com.soochie14.linea", buttontext: "Lien Play Store"},
+    {title: "Stage Table de Coco", image: tabledecocoimage, texte: "Conception et développement du site vitrine d'un restaurant de burgers.", date: "juillet 2026", technologies: "VSCode - HTML - CSS - JS", type: "stage", link: "https://stage-tablecoco-aurelien-brochetta.vercel.app/index.html", buttontext: "Lien site internet"},
+    {title: "Stage Association PEPS", image: pepsimage, texte: "Refonte et amélioration du site d'une association d'accompagnement social.", date: "juin-juillet 2026", technologies: "Artisteer 4 - VSCode - HTML - CSS", type: "stage", link: "https://association-peps30.fr/", buttontext: "Lien site internet"},
+    {title: "Stage Résurgences 34", image: resurgences34image, texte: "Mise à jour du site internet et formation du personnel à l'outil de gestion de mots de passe Keepass.", date: "mai-juin 2026", technologies: "Google Site - Keepass", type: "stage", link: "https://sites.google.com/view/resurgences34/", buttontext: "Lien site internet"},
+    {title: "Studio Gaming", image: studiogamingimage, texte: "Développement en équipe d'une plateforme de jeux vidéo avec gestion CRUD complète.", date: "avril-juin 2026", technologies: "VSCode - Symfony - React", type: "ecole", link: "https://github.com/AurelienB14/Projet-de-specialite", buttontext: "Lien GitHub"},
+    {title: "Site Portfolio", image: portfolioimage, texte: "Conception et développement de mon portfolio personnel, présentant mes compétences et projets.", date: "mars 2026", technologies: "VSCode - React - Tailwind - CSS - Vite - Figma", type: "personnel", link: "https://portfolio-aurelien-brochetta.vercel.app", buttontext: "Lien site internet"},
+    {title: "Greenfall : Seeds of Tomorrow", image: greenfallsotimage, texte: "Développement en équipe d'un jeu vidéo de sensibilisation environnementale.", date: "février 2026", technologies: "Godot - Python", type: "ecole", link: "https://aurelienb14.itch.io/greenfall-seeds-of-tomorrow", buttontext: "Lien Itch.io (pc)"},
+    {title: "Site Portfolio fictif", image: portfoliofictifimage, texte: "Intégration d'un portfolio fictif en équipe, mettant en pratique les techniques Sass/SCSS.", date: "décembre 2025", technologies: "VSCode - HTML - CSS - Sass/SCSS", type: "ecole", link: "https://github.com/AurelienB14/IntegrationWeb", buttontext: "Lien GitHub"},
+    {title: "Stage Coolair", image: stagecoolairimage, texte: "Création du site vitrine d'une entreprise spécialisée dans la rénovation énergétique.", date: "avril-mai 2025", technologies: "WordPress", type: "stage", link: "https://stage.aurelien-brochetta.mds-montpellier.yt/", buttontext: "Lien site internet"},
+    {title: "Site de partiel", image: partielimage, texte: "Création en équipe d'un site WordPress pour une campagne électorale fictive.", date: "mars 2025", technologies: "WordPress", type: "ecole", link: "https://aurelien-brochetta.mds-montpellier.yt/partiel/", buttontext: "Lien site internet"},
+    {title: "Site d'association", image: associationimage, texte: "Création en équipe d'un site WordPress pour une association fictive.", date: "février 2025", technologies: "WordPress", type: "ecole", link: "https://aurelien-brochetta.mds-montpellier.yt/", buttontext: "Lien site internet"},
 ]
 
   const buttons = [
-    {text:"tous", type:"tous", color: "#0081ce", textcolor:"#FFFFFF"},
-    {text:"stage", type:"stage", color: "#e5a000", textcolor:"#000000"},
-    {text:"ecole", type:"ecole", color: "#3eb489", textcolor:"#000000"},
-    {text:"personnel", type:"personnel", color:"#0081ce", textcolor:"#000000"},
+    {text:"Tous", type:"tous", color: "#0081ce", textcolor:"#FFFFFF"},
+    {text:"Stage", type:"stage", color: "#e5a000", textcolor:"#000000"},
+    {text:"Ecole", type:"ecole", color: "#3eb489", textcolor:"#000000"},
+    {text:"Personnel", type:"personnel", color:"#0081ce", textcolor:"#000000"},
   ]
 
   return (
@@ -115,21 +115,22 @@ function App() {
 
         <DivSection id="About">
           <TitleSection text="À propos"/>
-          <CardSection className='flex flex-col md:flex-row gap-[20px] md:gap-0'>
-            <div className='flex md:w-1/2 md:px-[25px]'>
+          <CardSection className='flex flex-col lg:flex-row gap-[20px] md:gap-0'>
+            <div className='flex lg:w-1/2 md:px-[25px]'>
               <img src={photoprofil} className='w-full h-full object-cover' alt="Photo de profil"/>
             </div>
-            <div className='flex flex-col md:w-1/2 gap-[10px]'>
+            <div className='flex flex-col lg:w-1/2 gap-[10px]'>
               <SubTitleSection text="Mon parcours"/>
-              <p>Passionné par l’informatique, j’ai découvert la programmation à l’âge de 14 ans, pendant le confinement. 
+              <p className='!text-[15px]'>Passionné par l’informatique, j’ai découvert la programmation à l’âge de 14 ans, pendant le confinement. 
               J'ai appris à coder seul. Ce fut une révélation pour moi. L’informatique est un milieu dans lequel je m’épanouis désormais.</p>
               <div className="border-t border-[#0081ce44]"/>
               <SubTitleSection text="Mes compétences"/>
-              <p>Au cours de mon cursus, j’ai pu acquérir de bonnes compétences en développement web, gestion de projet, marketing et design graphique. 
-              Je découvre depuis cette année le domaine très enrichissant de la cybersécurité, et je suis tout à fait conscient de l’importance de ce domaine dans la sécurisation des données sensibles recueillies au sein des sociétés publiques et privées.</p>
+              <p className='!text-[15px]'>Au cours des deux premières années de mon cursus, j’ai pu acquérir de bonnes compétences en développement web, gestion de projet, marketing et design graphique.
+              J'ai le domaine très enrichissant de la cybersécurité, et je suis tout à fait conscient de l’importance de ce domaine dans la sécurisation des données sensibles recueillies au sein des sociétés publiques et privées.
+              Cette troisième année de formation va me permettre d'approfondir mes connaissances en développement web et en conception d'applications.</p>
               <div className="border-t border-[#0081ce44]"/>
               <SubTitleSection text="Mon projet"/>
-              <p>J’envisage de travailler dans le domaine du développement web. 
+              <p className='!text-[15px]'>J’envisage de devenir développeur full-stack. 
               Un stage ou une alternance me permettrait de découvrir davantage le monde professionnel et de développer mes compétences au contact de professionnels expérimentés.</p>
             </div>
           </CardSection>
@@ -185,7 +186,7 @@ function App() {
                 <button
                   key={index}
                   onClick={() => setFilter(btn.type)}
-                  className="px-[10px] py-[4px] sm:px-[20px] sm:py-[8px] text-[12px] sm:text-[14px] font-bold cursor-pointer"
+                  className="px-[12px] py-[5px] sm:px-[20px] sm:py-[8px] text-[12px] sm:text-[14px] font-bold cursor-pointer"
                   style={filter === btn.type ?
                     {background: btn.color, color: btn.textcolor, borderRadius: "20px"} :
                     {background: btn.color+"22", color: btn.color, borderRadius: "20px", border: "1px solid "+btn.color}
