@@ -80,7 +80,7 @@ function App() {
       <div className='flex flex-col mx-auto'>
         <div className='fixed w-full flex justify-between flex-col sm:flex-row px-5 z-50'>
           <div className='flex justify-between items-center flex-row'>
-            <img src={logo} alt="logo" className='w-[50px] h-[50px] cursor-pointer' onClick={() => document.getElementById("Hero").scrollIntoView({behavior: "smooth"})}/>
+            <img src={logo} alt="logo" className='w-[50px] h-[50px] cursor-pointer' onClick={() => window.scrollTo({top: 0, behavior: "smooth"})}/>
             <MenuButton menu={menu} setMenu={setMenu}/>
           </div>
           <div id="menuButtons" className='flex flex-row justify-end gap-1 sm:gap-5'>
@@ -230,9 +230,14 @@ function App() {
                 <div className="border-t border-[#0081ce44]"/>
                 <ContactInfos logo={FiLinkedin} text="Aurélien Brochetta" link="https://www.linkedin.com/in/aur%C3%A9lien-brochetta-427409333/"/>
                 <ContactInfos logo={FiGithub} text="AurelienB14" link="https://github.com/AurelienB14"/>
-                <a href={cv} target="_blank">
-                  <Button text="Voir mon CV"/>
-                </a>
+                <div className='flex flex-row justify-between'>
+                  <a href={cv} download="CV_Aurelien_Brochetta.pdf">
+                    <Button text="Télécharger mon CV"/>
+                  </a>
+                  <a href={cv} target="_blank">
+                    <Button text="Voir mon CV"/>
+                  </a>
+                </div>
               </div>
             </div>
           </CardSection>
