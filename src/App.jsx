@@ -230,6 +230,7 @@ function App() {
                 <div className="border-t border-[#0081ce44]"/>
                 <ContactInfos logo={FiLinkedin} text="Aurélien Brochetta" link="https://www.linkedin.com/in/aur%C3%A9lien-brochetta-427409333/"/>
                 <ContactInfos logo={FiGithub} text="AurelienB14" link="https://github.com/AurelienB14"/>
+                <div className="border-t border-[#0081ce44]"/>
                 <div className='flex flex-row justify-between'>
                   <a href={cv} download="CV_Aurelien_Brochetta.pdf">
                     <Button text="Télécharger mon CV"/>
