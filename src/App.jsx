@@ -63,15 +63,15 @@ function App() {
     {title: "Site Portfolio", image: portfolioimage, texte: "Conception et développement de mon portfolio personnel, présentant mes compétences et projets.", date: "mars 2026", technologies: "VSCode - React - Tailwind - CSS - Vite - Figma", type: "personnel", link: "https://portfolio-aurelien-brochetta.vercel.app", buttontext: "Lien site internet"},
     {title: "Greenfall : Seeds of Tomorrow", image: greenfallsotimage, texte: "Développement en équipe d'un jeu vidéo de sensibilisation environnementale.", date: "février 2026", technologies: "Godot - Python", type: "ecole", link: "https://aurelienb14.itch.io/greenfall-seeds-of-tomorrow", buttontext: "Lien Itch.io (pc)"},
     {title: "Site Portfolio fictif", image: portfoliofictifimage, texte: "Intégration d'un portfolio fictif en équipe, mettant en pratique les techniques Sass/SCSS.", date: "décembre 2025", technologies: "VSCode - HTML - CSS - Sass/SCSS", type: "ecole", link: "https://github.com/AurelienB14/IntegrationWeb", buttontext: "Lien GitHub"},
-    {title: "Stage Coolair", image: stagecoolairimage, texte: "Création du site vitrine d'une entreprise spécialisée dans la rénovation énergétique.", date: "avril-mai 2025", technologies: "WordPress", type: "stage", link: "https://stage.aurelien-brochetta.mds-montpellier.yt/", buttontext: "Lien site internet"},
+    {title: "Stage Coolair", image: stagecoolairimage, texte: "Création du site vitrine d'une entreprise spécialisée dans la rénovation.", date: "avril-mai 2025", technologies: "WordPress", type: "stage", link: "https://stage.aurelien-brochetta.mds-montpellier.yt/", buttontext: "Lien site internet"},
     {title: "Site de partiel", image: partielimage, texte: "Création en équipe d'un site WordPress pour une campagne électorale fictive.", date: "mars 2025", technologies: "WordPress", type: "ecole", link: "https://aurelien-brochetta.mds-montpellier.yt/partiel/", buttontext: "Lien site internet"},
-    {title: "Site d'association", image: associationimage, texte: "Création en équipe d'un site WordPress pour une association fictive.", date: "février 2025", technologies: "WordPress", type: "ecole", link: "https://aurelien-brochetta.mds-montpellier.yt/", buttontext: "Lien site internet"},
+    {title: "Site d'association", image: associationimage, texte: "Création en équipe d'un site WordPress pour une association.", date: "février 2025", technologies: "WordPress", type: "ecole", link: "https://aurelien-brochetta.mds-montpellier.yt/", buttontext: "Lien site internet"},
 ]
 
   const buttons = [
     {text:"Tous", type:"tous", color: "#0081ce", textcolor:"#FFFFFF"},
     {text:"Stage", type:"stage", color: "#e5a000", textcolor:"#000000"},
-    {text:"Ecole", type:"ecole", color: "#3eb489", textcolor:"#000000"},
+    {text:"École", type:"ecole", color: "#3eb489", textcolor:"#000000"},
     {text:"Personnel", type:"personnel", color:"#0081ce", textcolor:"#000000"},
   ]
 
