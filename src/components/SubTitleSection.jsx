@@ -1,6 +1,6 @@
 export default function SubTitleSection(children) {
     return <h4 
-        className="flex justify-center text-[35px] text-center"
+        className="text-[#0081ce] text-[20px]"
     >
         {children.text}
     </h4>

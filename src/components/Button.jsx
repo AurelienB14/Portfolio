@@ -1,18 +1,15 @@
-export default function Button(children) {
+export default function Button({text, link, scroll, className}) {
     const handleClick = () => {
-    if (children.scroll) {
-      document.getElementById(children.scroll).scrollIntoView({behavior: "smooth"})
+        if (scroll) {
+            document.getElementById(scroll).scrollIntoView()
+        }
+        if (link) {
+            window.open(link, "_blank")
+        }
     }
-    if (children.link) {
-      window.open(children.link, "_blank")
-    }
-  }
     return <button
-        className="
-        h-[35px] hover:h-[45px] px-1 hover:px-6
-        bg-[#0081ce] hover:bg-[#3eb489] transition duration-300 rounded-full
-        text-[12px] font-bold cursor-pointer whitespace-nowrap"
+        className={`h-[35px] hover:h-[40px] px-1 hover:px-3 bg-[#0081ce] hover:bg-[#3eb489] transition duration-300 rounded-full text-[12px] font-bold cursor-pointer whitespace-nowrap ${className}`}
         onClick={handleClick}>
-        {children.text}
-        </button>;
+        {text}
+    </button>
 }

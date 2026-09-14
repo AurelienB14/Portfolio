@@ -2,8 +2,7 @@ import { useState } from "react"
 import menuhide from "../assets/menuhide.svg"
 import menushow from "../assets/menushow.svg"
 
-export default function MenuButton() {
-    const [menu, setMenu] = useState(false)
+export default function MenuButton({menu, setMenu}) {
     return <img
         src={menu ? menushow : menuhide}
         alt="menu" 
