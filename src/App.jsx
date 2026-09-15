@@ -127,11 +127,11 @@ function App() {
               <SubTitleSection text="Mes compétences"/>
               <p className='!text-[15px] text-justify'>Au cours des deux premières années de mon cursus, j’ai pu acquérir de bonnes compétences en développement web, gestion de projet, marketing et design graphique.
               J'ai découvert le domaine très enrichissant de la cybersécurité, et je suis tout à fait conscient de l’importance de ce domaine dans la sécurisation des données sensibles recueillies au sein des sociétés publiques et privées.
-              Cette troisième année de formation va me permettre d'approfondir mes connaissances en développement web et en conception d'applications.</p>
+              <br/>Cette troisième année de formation va me permettre d'approfondir mes connaissances en développement web et en conception d'applications.</p>
               <div className="border-t border-[#0081ce44]"/>
               <SubTitleSection text="Mon projet"/>
               <p className='!text-[15px] text-justify'>J’envisage de devenir développeur full-stack. 
-              Un stage ou une alternance me permettrait de découvrir davantage le monde professionnel et de développer mes compétences au contact de professionnels expérimentés.</p>
+              De ce fait, un stage ou une alternance me permettrait de découvrir davantage le monde professionnel et de développer mes compétences au contact de professionnels expérimentés.</p>
             </div>
           </CardSection>
         </DivSection>
