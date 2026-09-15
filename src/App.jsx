@@ -188,9 +188,15 @@ function App() {
                   onClick={() => setFilter(btn.type)}
                   className="px-[12px] py-[5px] sm:px-[20px] sm:py-[8px] text-[12px] sm:text-[14px] font-bold cursor-pointer"
                   style={filter === btn.type ?
-                    {background: btn.color, color: btn.textcolor, borderRadius: "20px"} :
+                    {background: btn.color, color: btn.textcolor, borderRadius: "20px", border: "1px solid "+btn.color} :
                     {background: btn.color+"22", color: btn.color, borderRadius: "20px", border: "1px solid "+btn.color}
-                }>
+                }
+                onMouseEnter={e => {e.target.style.background = btn.color, e.target.style.color = btn.textcolor = btn.textcolor}}
+                onMouseLeave={e => {
+                    if (filter !== btn.type) {
+                      e.target.style.background = btn.color+"22", e.target.style.color = btn.textcolor = btn.color}
+                    }}
+                >
                 {btn.text}
                 </button>
               ))
@@ -221,7 +227,7 @@ function App() {
           <CardSection>
             <div className='flex flex-col justify-center gap-[25px] w-full'>
               <SubTitleSection text="Infos"/>
-              <div className='flex flex-col gap-[20px] w-min'>
+              <div className='flex flex-col gap-[15px] w-min'>
                 <ContactInfos logo={FiMail} text="aurelien.brochetta@gmail.com"/>
                 <ContactInfos logo={FiMapPin} text="Montpellier, France"/>
                 <ContactInfos logo={FiUser} text="20 ans"/>
