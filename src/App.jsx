@@ -121,16 +121,16 @@ function App() {
             </div>
             <div className='flex flex-col lg:w-1/2 gap-[10px]'>
               <SubTitleSection text="Mon parcours"/>
-              <p className='!text-[15px]'>Passionné par l’informatique, j’ai découvert la programmation à l’âge de 14 ans, pendant le confinement. 
+              <p className='!text-[15px] text-justify'>Passionné par l’informatique, j’ai découvert la programmation à l’âge de 14 ans, pendant le confinement. 
               J'ai appris à coder seul. Ce fut une révélation pour moi. L’informatique est un milieu dans lequel je m’épanouis désormais.</p>
               <div className="border-t border-[#0081ce44]"/>
               <SubTitleSection text="Mes compétences"/>
-              <p className='!text-[15px]'>Au cours des deux premières années de mon cursus, j’ai pu acquérir de bonnes compétences en développement web, gestion de projet, marketing et design graphique.
-              J'ai le domaine très enrichissant de la cybersécurité, et je suis tout à fait conscient de l’importance de ce domaine dans la sécurisation des données sensibles recueillies au sein des sociétés publiques et privées.
+              <p className='!text-[15px] text-justify'>Au cours des deux premières années de mon cursus, j’ai pu acquérir de bonnes compétences en développement web, gestion de projet, marketing et design graphique.
+              J'ai découvert le domaine très enrichissant de la cybersécurité, et je suis tout à fait conscient de l’importance de ce domaine dans la sécurisation des données sensibles recueillies au sein des sociétés publiques et privées.
               Cette troisième année de formation va me permettre d'approfondir mes connaissances en développement web et en conception d'applications.</p>
               <div className="border-t border-[#0081ce44]"/>
               <SubTitleSection text="Mon projet"/>
-              <p className='!text-[15px]'>J’envisage de devenir développeur full-stack. 
+              <p className='!text-[15px] text-justify'>J’envisage de devenir développeur full-stack. 
               Un stage ou une alternance me permettrait de découvrir davantage le monde professionnel et de développer mes compétences au contact de professionnels expérimentés.</p>
             </div>
           </CardSection>
