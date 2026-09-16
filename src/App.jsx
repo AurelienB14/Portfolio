@@ -117,7 +117,7 @@ function App() {
           <TitleSection text="À propos"/>
           <CardSection className='flex flex-col lg:flex-row gap-[20px] md:gap-0'>
             <div className='flex lg:w-1/2 md:px-[25px]'>
-              <img src={photoprofil} className='w-full h-full object-cover' alt="Photo de profil"/>
+              <img src={photoprofil} className='w-max h-max' alt="Photo de profil"/>
             </div>
             <div className='flex flex-col lg:w-1/2 gap-[10px]'>
               <SubTitleSection text="Mon parcours"/>
