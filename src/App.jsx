@@ -121,17 +121,26 @@ function App() {
             </div>
             <div className='flex flex-col lg:w-1/2 gap-[10px]'>
               <SubTitleSection text="Mon parcours"/>
-              <p className='!text-[15px] text-justify'>Passionné par l’informatique, j’ai découvert la programmation à l’âge de 14 ans, pendant le confinement. 
-              J'ai appris à coder seul. Ce fut une révélation pour moi. L’informatique est un milieu dans lequel je m’épanouis désormais.</p>
+              <p className='!text-[15px] text-justify'>
+                Passionné par l’informatique, j’ai découvert la programmation à l’âge de 14 ans, pendant le confinement. 
+                J’ai alors commencé à apprendre à coder par moi-même, par curiosité et avec l’envie de comprendre comment fonctionnaient les logiciels et les sites web. 
+                Cette découverte a été une véritable révélation et m’a progressivement conduit à envisager l’informatique comme un domaine professionnel dans lequel je souhaite m’épanouir.
+              </p>
               <div className="border-t border-[#0081ce44]"/>
               <SubTitleSection text="Mes compétences"/>
-              <p className='!text-[15px] text-justify'>Au cours des deux premières années de mon cursus, j’ai pu acquérir de bonnes compétences en développement web, gestion de projet, marketing et design graphique.
-              J'ai découvert le domaine très enrichissant de la cybersécurité, et je suis tout à fait conscient de l’importance de ce domaine dans la sécurisation des données sensibles recueillies au sein des sociétés publiques et privées.
-              <br/>Cette troisième année de formation va me permettre d'approfondir mes connaissances en développement web et en conception d'applications.</p>
+              <p className='!text-[15px] text-justify'>
+                Au cours des deux premières années de mon cursus, j’ai développé de solides bases dans plusieurs domaines, notamment le développement web, la gestion de projet, le marketing et le design graphique. 
+                J’ai également découvert la cybersécurité, un domaine qui m’a particulièrement intéressé et qui joue un rôle essentiel dans la protection des données et des systèmes informatiques des organisations.
+              <br/>
+                Cette troisième année de formation me permettra d’approfondir mes connaissances en développement web et de renforcer mes compétences en conception et développement d’applications.
+              </p>
               <div className="border-t border-[#0081ce44]"/>
               <SubTitleSection text="Mon projet"/>
-              <p className='!text-[15px] text-justify'>J’envisage de devenir développeur full-stack. 
-              De ce fait, un stage ou une alternance me permettrait de découvrir davantage le monde professionnel et de développer mes compétences au contact de professionnels expérimentés.</p>
+              <p className='!text-[15px] text-justify'>
+                Mon objectif professionnel est de devenir développeur full-stack, afin de pouvoir intervenir aussi bien sur la partie front-end que sur la partie back-end d’une application web.
+              <br/>
+                Un stage ou une alternance représente pour moi une excellente occasion de mettre mes connaissances en pratique, de découvrir davantage le monde professionnel et de continuer à progresser aux côtés de professionnels expérimentés.
+              </p>
             </div>
           </CardSection>
         </DivSection>
