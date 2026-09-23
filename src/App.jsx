@@ -43,6 +43,7 @@ import resurgences34image from "./assets/projets/resurgences34-image.png"
 import pepsimage from "./assets/projets/peps-image.png"
 import tabledecocoimage from "./assets/projets/tabledecoco-image.png"
 import lineaimage from "./assets/projets/linea-image.png"
+import catzinoimage from "./assets/projets/catzino-image.png"
 
 import cv from "./assets/cvaurelienbrochetta.pdf"
 
@@ -55,6 +56,7 @@ function App() {
   const [menu, setMenu] = useState(false)
 
   const projects = [
+    {title: "Catzino", image: catzinoimage, texte: "Développement d'un site d'un cahier des charges d'un autre groupe.", date: "septembre 2026", technologies: "VSCode - React - NextJS", type: "ecole", link: "https://catzino.vercel.app/", buttontext: "Lien Site"},
     {title: "Linea", image: lineaimage, texte: "Jeu mobile développé et publié sur le Play Store. Le joueur contrôle un cube et doit éliminer des ennemis.", date: "juin-septembre 2026", technologies: "Godot - Python", type: "personnel", link: "https://play.google.com/store/apps/details?id=com.soochie14.linea", buttontext: "Lien Play Store"},
     {title: "Stage Table de Coco", image: tabledecocoimage, texte: "Conception et développement du site internet d'un restaurant de burgers.", date: "juillet 2026", technologies: "VSCode - HTML - CSS - JS", type: "stage", link: "https://stage-tablecoco-aurelien-brochetta.vercel.app/index.html", buttontext: "Lien site internet"},
     {title: "Stage Association PEPS", image: pepsimage, texte: "Refonte et amélioration du site d'une association d'accompagnement social.", date: "juin-juillet 2026", technologies: "Artisteer 4 - VSCode - HTML - CSS", type: "stage", link: "https://association-peps30.fr/", buttontext: "Lien site internet"},
